@@ -1,0 +1,64 @@
+:author: username
+:email: <username@wisoft.io>
+:revision: 2021.xx.0
+:icons: font
+:main-title: main title
+:sub-title: sub title
+:description: description
+:git_service: https://git.wisoft.io/username/
+:project_name: project-name
+:project_license: Copyright
+:experimental:
+:hardbreaks:
+
+
+= {main-title}: {sub-title}
+
+image:https://img.shields.io/badge/version-{revision}-blue.svg[link="./CHANGELOG",title="version"]  image:https://img.shields.io/badge/license-{project_license}-lightgrey.svg[link="./LICENSE",title="license"]
+
+
+== What is the Project
+
+{description}
+
+
+== Status
+
+Version {revision}
+
+* link:./CHANGELOG[History]
+* link:{git_service}{project_name}/boards[Issues Board] / link:{git_service}{project_name}/issues[Issues List]
+
+
+== Building
+
+. Clone a copy of the repository:
++
+[subs="attributes"]
+----
+$ git clone {git_service}{project_name}.git
+----
++
+
+. Change to the project directory:
++
+[subs="attributes"]
+----
+$ cd {project_name}
+----
++
+
+
+== Usage
+
+...
+
+
+== License
+
+* LICENSE: link:./LICENSE[{project_license}]
+
+
+== Contributors
+
+* {author} {email}
